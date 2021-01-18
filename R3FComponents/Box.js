@@ -1,6 +1,4 @@
-import { Stars } from "drei";
-
-function StarsBack() {
+function Box() {
   return (
     <>
       <Stars />
