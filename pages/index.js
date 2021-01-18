@@ -2,6 +2,9 @@ import Head from "next/head";
 
 import React, { useState, useEffect } from "react";
 
+import SmallButtonWhite from "../components/SmallButtonWhite";
+import SmallButtonBlack from "../components/SmallButtonBlack";
+
 import dynamic from "next/dynamic";
 
 const Background = dynamic(import("../R3FComponents/Background"), {
@@ -15,7 +18,8 @@ export default function Home() {
   return (
     <>
       {hasMounted && <Background />}
-      <h1>HELLO</h1>
+      <SmallButtonWhite />
+      <SmallButtonBlack />
     </>
   );
 }

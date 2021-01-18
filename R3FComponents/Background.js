@@ -15,7 +15,6 @@ function Background() {
           font="/RussoOne-Regular.ttf"
           position={[1, 0, 0]}
           color={"white"}
-          width={2}
           fontSize={1.2}
           position={[2.5, -0.2, -0.4]}
           rotation={[0, 4.72, 0]}
