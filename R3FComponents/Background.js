@@ -15,8 +15,8 @@ function Background() {
           font="/RussoOne-Regular.ttf"
           position={[1, 0, 0]}
           color={"white"}
-          fontSize={1.2}
-          position={[2.5, -0.2, -0.4]}
+          fontSize={2}
+          position={[7.5, -0.5, -1]}
           rotation={[0, 4.72, 0]}
           textStroke={"red"}
         >
@@ -26,8 +26,8 @@ function Background() {
           font="/RussoOne-Regular.ttf"
           position={[1, 0, 0]}
           color={"black"}
-          fontSize={1.2}
-          position={[2.5, -0.2, 1.4]}
+          fontSize={2}
+          position={[7.5, -0.5, 1.9]}
           rotation={[0, 4.72, 0]}
         >
           CE
