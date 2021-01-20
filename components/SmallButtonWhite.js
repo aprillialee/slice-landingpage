@@ -16,6 +16,10 @@ const SmallButtonStyled = styled.button`
   background: white;
   outline: none;
   border: none;
+
+  @media (max-width: 768px) {
+    margin-left: 20px;
+  }
 `;
 
 export default SmallButtonWhite;
